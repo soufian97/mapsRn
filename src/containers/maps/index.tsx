@@ -69,7 +69,7 @@ const Maps = () => {
 
   useEffect(() => {
     mapRef?.current?.animateToRegion(handleRegion(startPoint), 3 * 1000);
-  }, []);
+  });
 
   return (
     <SafeAreaView style={styles.container}>
@@ -84,8 +84,8 @@ const Maps = () => {
         style={styles.map}
         initialRegion={handleRegion(startPoint)}
       >
-        <Marker coordinate={handleRegion(startPoint)} />
-        <Marker coordinate={handleRegion(arrivalPoint)} />
+        <Marker coordinate={handleRegion(startPoint)} title={'Departure'} />
+        <Marker coordinate={handleRegion(arrivalPoint)} title={'Arrival'} />
         <MapViewDirections
           origin={startPoint}
           destination={arrivalPoint}
