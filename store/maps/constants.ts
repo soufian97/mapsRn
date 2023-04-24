@@ -1,0 +1,2 @@
+export const ADD_START_POINT = 'ADD_START_POINT';
+export const ADD_ARRIVAL_POINT = 'ADD_ARRIVAL_POINT';
