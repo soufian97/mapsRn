@@ -12,6 +12,8 @@ import { GOOGLE_MAPS_APIKEY } from '@env';
 import { COLORS } from '../../utils/colors';
 import { styles } from './styles';
 
+
+
 enableLatestRenderer();
 
 const Maps = () => {
