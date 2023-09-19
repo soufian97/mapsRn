@@ -13,7 +13,6 @@ import { COLORS } from '../../utils/colors';
 import { styles } from './styles';
 
 
-
 enableLatestRenderer();
 
 const Maps = () => {
